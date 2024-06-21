@@ -941,6 +941,12 @@
           gap: 1.3125rem;
         }
       }
+      #footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      }
     </style>
     <noscript>
       <style>
@@ -961,14 +967,6 @@
           transform: none !important;
           transition: none !important;
           filter: none !important;
-        }
-        /* Add the following CSS code to center the footer */
-        #footer {
-          position: fixed;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          z-index: 100;
         }
       </style>
     </noscript>
@@ -2500,6 +2498,6 @@
         });
       })();
     </script>
-    <footer>Made with ❤️ by Moise</footer>
+    <footer id="footer">Made with ❤️ by Moise</footer>
   </body>
 </html>
